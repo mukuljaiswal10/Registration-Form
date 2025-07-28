@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration-Form</title>
+    <Link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="main-div">
+        <form>
+            <fieldset>
+                <legend>Registration-Form</legend>
+                <div class="form-outer">
+                    <label for="fullName">Name</label>
+                    <input type="text" placeholder="Full Name" required id="fullName" pattern="[a-zA-Z ]{1,30}" maxlength="30" name="fullname"/>
+                </div>
+                <div class="form-outer">
+                    <label for="">Gender</label>
+                    <div class="gen-choice">
+                        <div class="male">
+                            <label for="male">Male</label>
+                            <input type="radio" required id="male" name="ml"/>
+                        </div>
+                        <div class="female">
+                            <label for="female">Female</label>
+                            <input type="radio" required id="female" name="ml"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-outer">
+                    <label for="">Qualification</label>
+                    <div class="gen-choice">
+                        <div class="male">
+                            <label for="tenth">10<sup>th</sup></label>
+                            <input type="checkbox" required id="tenth"/>
+                        </div>
+                        <div class="female">
+                            <label for="tewelth">12<sup>th</sup></label>
+                            <input type="checkbox" required id="tewelth"/>
+                        </div>
+                        <div class="ug">
+                            <label for="ug">U.G</label>
+                            <input type="checkbox" required id="ug"/>
+                        </div>
+                        <div class="pg">
+                            <label for="pg">P.G</label>
+                            <input type="checkbox" required id="pg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-outer">
+                    <label for="contact-num">Mobile</label>
+                    <input type="tel" placeholder="+91 1234567890" required id="contact-num"/>
+                </div>
+                <div class="form-outer">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="xyz@gmail.com" required id="email" name="email"/>
+                </div>
+                <div class="form-outer">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" required id="password" name="password"/>
+                </div>
+                <div class="form-outer">
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
