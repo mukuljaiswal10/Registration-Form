@@ -11,6 +11,8 @@ body
     background: url("WhatsApp\ Image\ 2025-07-28\ at\ 12.32.15_a4aafe0b.jpg");
     /* background-position: center; */
     background-size:cover;
+    height: 100vh;
+    width: 100%;
 }
 .main-div 
 {
